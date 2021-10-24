@@ -1,0 +1,84 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Fastapi",
+		"_postman_id": "54a5f998-32e4-858b-97d0-93a3b29a0faf",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/notes/",
+			"request": {
+				"url": "http://localhost:8000/notes/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"text\":\"Get Groceries from the store\",\"completed\":false}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/notes/",
+			"request": {
+				"url": "http://localhost:8000/notes/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/notes/1",
+			"request": {
+				"url": "http://localhost:8000/notes/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/javascript",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \n        \"text\": \"Get Groceries from the store updated\",\n        \"completed\": false\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/notes/1",
+			"request": {
+				"url": "http://localhost:8000/notes/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/notes/1",
+			"request": {
+				"url": "http://localhost:8000/notes/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
