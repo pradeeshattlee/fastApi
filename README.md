@@ -1,4 +1,4 @@
-### Windows Users
+### initialization
 In command terminal run the following command
 ```shell
 python -m venv env
@@ -7,7 +7,7 @@ python -m pip install -U pip
 pip install -r requirements.txt
 ```
 
-## Run this app on Local PC
+## Run the app 
 In command terminal run the following command
 ```shell
 uvicorn main:app --reload
