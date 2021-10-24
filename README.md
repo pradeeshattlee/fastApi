@@ -13,3 +13,9 @@ In command terminal run the following command
 uvicorn main:app --reload
 ```
 
+## make the app calls on postman
+import the file in postman Fastapi.postman_collection.json
+## Available api methods
+```shell
+
+```
