@@ -20,12 +20,14 @@ import the file in postman  ## Fastapi.postman_collection.json
 
 ## Available api methods
 ```shell
-Fastapi
+**Fastapi**
+
 Make things easier for your teammates with a complete collection description.
+
 POST
 http://localhost:8000/notes/
-http://localhost:8000/notes/
-Add
+
+**Add entry**
 
 Request Headers
 Content-Type
@@ -36,15 +38,16 @@ json
   "text": "Get Groceries from the store",
   "completed": false
 }
+
 GET
 http://localhost:8000/notes/
-http://localhost:8000/notes/
-retrieve
+
+**retrieve all**
 
 PUT
 http://localhost:8000/notes/1
-http://localhost:8000/notes/1
-update
+
+**update particular entry**
 
 Request Headers
 Content-Type
@@ -55,13 +58,14 @@ javascript
   "text": "Get Groceries from the store updated",
   "completed": false
 }
+
 GET
 http://localhost:8000/notes/1
-http://localhost:8000/notes/1
-get particular entry
+
+**retrieve particular entry**
 
 DEL
 http://localhost:8000/notes/1
-http://localhost:8000/notes/1
-delete entry
+
+**delete entry**
 ```
